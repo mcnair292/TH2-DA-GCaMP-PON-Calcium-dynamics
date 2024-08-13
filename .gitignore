@@ -1,0 +1,21 @@
+ECHO is on.
+# Ignore system files and directories
+AppData/
+AppData/Local/
+AppData/Local/*
+*.jtx
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+venv/
+.env/
+.venv/
+ENV/
+
+# Ignore macOS-specific files
+.DS_Store
